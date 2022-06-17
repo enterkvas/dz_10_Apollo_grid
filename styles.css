@@ -139,14 +139,14 @@ html, body {
 }
 /* Пагинация Буллеты */
 .swiper-pagination-clickable {margin-bottom: 11px;}
-.slider-swiper .swiper-pagination-bullet {
-   width: 12px;
-   height: 12px;
-   background-color: var(--white);
+.slider-swiper .swiper-pagination-bullet {	
+	width: 12px;
+	height: 12px;	
+	background-color: var(--white);
 }
 /* --------------------------------------------- */
 .benefits {
-   background-color: aquamarine;
+   background-color: rgb(150, 127, 255);
 }
 /* --------------------------------------------- */
 .service-description {
