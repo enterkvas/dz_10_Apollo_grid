@@ -1,0 +1,10 @@
+/* ----------------Переменные-------------------- */
+:root {
+	--fz: 14px;
+	--lh14: 1.72;
+   --black: #38383a;
+	--white: #fff;
+	--orange: #ffc80a;
+	--gray: #777;
+	--swiper-pagination-bullet-horizontal-gap: 9px;
+}

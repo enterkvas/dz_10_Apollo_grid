@@ -1,0 +1,28 @@
+.benefits {   
+   padding-top: 30px;
+   padding-bottom: 40px;
+   text-align: center;
+}
+.benefits__row {
+   display: grid;
+   row-gap: 40px;
+
+   margin-top: 45px;
+}
+.item__image {
+   margin-bottom: 28px;
+}
+.item__title {
+   margin-bottom: 11px;
+   font-size: 1.5rem;
+   line-height: 1;
+   font-weight: 700;
+}
+.item__description {
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   color: var(--gray);
+   font-size: var(--fz);
+   line-height: var(--lh14);
+}

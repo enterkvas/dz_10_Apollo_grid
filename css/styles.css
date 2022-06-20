@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import "../fonts/als-rubl/als-rubl.min.css";
+
+@import "base/base.css";
+@import "base/null-styles.css";
+@import "base/variables.css";
+
+@import "blocks/blocks.css";
+@import "blocks/heading.css";
+
+@import "sections/navigation.css";
+@import "sections/logo.css";
+@import "sections/slider.css";
+@import "sections/benefits.css";
+@import "sections/service-description.css";
+@import "sections/prices.css";
+@import "sections/footer.css";
+
+.service-description {
+   background-color: brown;
+}
+/* -------------------------------------------- */
+.prices {
+   background-color: chartreuse;
+}
+/* ----------------------------------------------- */
+.footer {
+   background-color: rgb(66, 49, 49);
+}
