@@ -1,25 +1,30 @@
-.benefits {   
-   padding-top: 30px;
-   padding-bottom: 40px;
+.benefits {
+   padding-top: 34px;
+   padding-bottom: 50px;
    text-align: center;
+   border-bottom: 1px solid #EBF0F6;
 }
+
 .benefits__row {
    display: grid;
    row-gap: 40px;
 
    margin-top: 45px;
 }
+
 .item__image {
    margin-bottom: 28px;
 }
+
 .item__title {
    margin-bottom: 11px;
    font-size: 1.5rem;
    line-height: 1;
    font-weight: 700;
 }
-.item__description {
-   width: 90%;
+
+.item__text {
+   letter-spacing: 0.3px;
    margin-left: auto;
    margin-right: auto;
    color: var(--gray);

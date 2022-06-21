@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 @import "../fonts/als-rubl/als-rubl.min.css";
 
 @import "base/base.css";
@@ -17,13 +18,11 @@
 @import "sections/prices.css";
 @import "sections/footer.css";
 
-.service-description {
-   background-color: brown;
-}
 /* -------------------------------------------- */
 .prices {
    background-color: chartreuse;
 }
+
 /* ----------------------------------------------- */
 .footer {
    background-color: rgb(66, 49, 49);

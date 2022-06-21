@@ -4,6 +4,7 @@ body,h1,h2,h3,h4,h5,h6,p,ul,ol,li {
 	margin: 0;
 	border: 0;
 }
+
 *,*::before,*::after{box-sizing: border-box;}
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
@@ -15,5 +16,6 @@ button::-moz-focus-inner{
 	padding: 0;
 	border: 0;
 }
+
 a,a:visited,a:hover{text-decoration: none;}
 ul, ol, li{list-style: none;}

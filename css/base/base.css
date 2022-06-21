@@ -1,23 +1,38 @@
-html, body {	
+html,
+body {
    margin: 0px 0px 0px 0px;
    height: 100%;
    line-height: 1;
    font-size: 14px;
-   font-family: 'Noto Sans', serif, sans-serif;   
+   font-family: 'Noto Sans', serif, sans-serif;
 }
+
 /* ------------------------ */
 @media (min-width: 320px) {
-	.visible-mobile {display: grid;}
-	.visible-tablet {display: none;}
+   .visible-mobile {
+      display: grid;
+   }
+
+   .visible-tablet {
+      display: none;
+   }
 }
+
 @media (min-width: 768px) {
-	.visible-tablet {display: grid;}
-	.visible-mobile {display: none;}
+   .visible-tablet {
+      display: grid;
+   }
+
+   .visible-mobile {
+      display: none;
+   }
 }
+
 /* --------------------------------------- */
 ._ibg {
    position: relative;
 }
+
 ._ibg img {
    position: absolute;
    width: 100%;
