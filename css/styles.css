@@ -18,8 +18,3 @@
 @import "sections/service-description.css";
 @import "sections/prices.css";
 @import "sections/footer.css";
-
-/* ----------------------------------------------- */
-.footer {
-   background-color: rgb(66, 49, 49);
-}
