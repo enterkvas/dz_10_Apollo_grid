@@ -28,6 +28,13 @@ body {
    }
 }
 
+.text {
+   color: var(--gray);
+   font-size: var(--fz);
+   line-height: var(--lh14);
+   letter-spacing: 0.3px;
+}
+
 /* --------------------------------------- */
 ._ibg {
    position: relative;

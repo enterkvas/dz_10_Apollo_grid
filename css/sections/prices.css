@@ -1,0 +1,17 @@
+.prices {
+   text-align: center;
+   padding-top: 30px;
+}
+
+.prices__title {
+   margin-bottom: 10px;
+}
+
+.prices__text {
+   margin-bottom: 36px;
+}
+
+.prices__row {
+   display: grid;
+   grid-row-gap: 40px;
+}

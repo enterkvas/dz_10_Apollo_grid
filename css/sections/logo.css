@@ -1,7 +1,6 @@
-.logo {
-   /* background-color: var(--white); */
-   padding-top: 2rem;
-   padding-bottom: 2rem;
+.logo {   
+   padding-top: 95px;
+   padding-bottom: 28px;
    font-weight: 700;
    text-transform: uppercase;
    text-align: center;
@@ -15,6 +14,6 @@
 }
 
 .logo__subtitle {
-   letter-spacing: 0.8rem;
+   letter-spacing: 0.8em;
    color: #a1bbd9;
 }
