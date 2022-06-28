@@ -1,0 +1,93 @@
+/* ---- Кнопки в блоке prices ------- */
+.button {
+   display: inline-block;
+   width: 150px;
+   height: 42px;
+   background-color: #252525;
+   box-shadow: 0px 8px 16px 0px #ababab;
+   color: var(--white);
+   font-size: var(--fz);
+   line-height: 1;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 0.08em;
+   border-radius: 22px;
+   padding: 14px 10px;
+   margin-top: 43px;
+}
+
+.button--orange {
+   background-color: var(--orange);
+}
+
+@media(min-width: 992px) {
+   .button {
+      transition: all 0.3s ease 0s;
+   }
+
+   .button:hover {
+      background-color: var(--orange);
+      box-shadow: 0px 8px 16px 0px #e9deb9;
+   }
+
+   .button:focus-visible {
+      outline: 4px solid #000;
+      outline-offset: 30px;
+      border-radius: 0;
+   }
+}
+
+/* Кнопка "вверх": */
+.btn_up {
+   display: none;
+   position: fixed;
+   bottom: 15px;
+   right: 15px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: 2px solid #000;
+   z-index: 100;
+   outline: 0 !important;
+   background: rgba(255, 255, 255, .5);
+}
+
+@media(min-width: 992px) {
+   .btn_up:hover {
+      cursor: pointer;
+   }
+}
+
+.btn_up::before {
+   content: "";
+   width: 10px;
+   height: 10px;
+   border-top: 2px solid #000;
+   border-right: 2px solid #000;
+   transform: rotate(-45deg);
+   position: absolute;
+   top: -5px;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+.btn_up::after {
+   content: "";
+   width: 10px;
+   height: 10px;
+   border-top: 2px solid #000;
+   border-right: 2px solid #000;
+   transform: rotate(-45deg);
+   position: absolute;
+   top: 10px;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+.btn_up.active {
+   display: block;
+}

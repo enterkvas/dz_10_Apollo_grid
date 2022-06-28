@@ -1,5 +1,5 @@
 .logo {   
-   padding-top: 95px;
+   padding-top: 100px;
    padding-bottom: 28px;
    font-weight: 700;
    text-transform: uppercase;
@@ -9,11 +9,11 @@
 .logo__title {
    margin-bottom: 6px;
    font-size: 33px;
-   letter-spacing: 0.32em;
+   letter-spacing: 0.26em;
    color: #000;
 }
 
 .logo__subtitle {
-   letter-spacing: 0.8em;
+   letter-spacing: 0.7em;
    color: #a1bbd9;
 }
