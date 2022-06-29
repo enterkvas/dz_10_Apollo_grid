@@ -1,14 +1,14 @@
 .logo {   
    padding-top: 100px;
-   padding-bottom: 28px;
+   padding-bottom: 40px;
    font-weight: 700;
    text-transform: uppercase;
    text-align: center;
 }
 
-.logo__title {
-   margin-bottom: 6px;
+.logo__title {  
    font-size: 33px;
+   line-height: 1.35;
    letter-spacing: 0.26em;
    color: #000;
 }

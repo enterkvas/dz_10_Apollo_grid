@@ -2,8 +2,14 @@
 // Меню бургер
 const nav = document.querySelector('.navigation'),
       iconBurger = document.querySelector('.navigation__toggle-button'),
-      navList = document.querySelector('.menu__list');          
+      navList = document.querySelector('.menu__list');
+      // menuDesk = document.querySelector('.navigation__desktop');
+      // menuDesktop = document.getElementById('desktopMenu');
+      // menuDesktop.style.display = 'none';          
 iconBurger.addEventListener("click", function(e){
+   // document.addEventListener("DOMContentLoaded", ready);
+   // menuDesktop.style.display = '';
+   // menuDesk.classList.toggle('_visib');
    iconBurger.classList.toggle('_active');
    navList.classList.toggle('_active');
    nav.classList.toggle('navigation--navy-blue');
