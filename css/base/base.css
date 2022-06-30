@@ -1,44 +1,29 @@
 html,
 body {
-   margin: 0px 0px 0px 0px;
-   height: 100%;
-   line-height: 1;
-   font-size: 14px;
+   min-width: 320px;   
+   min-height: 100vh;
    font-family: 'Noto Sans', serif, sans-serif;
+   font-size: var(--fz);
+   line-height: 1;   
 }
-
 /* ------------------------ */
 @media (min-width: 320px) {
-   .visible-mobile {
-      display: grid;
-   }
-
-   .visible-tablet {
-      display: none;
-   }
+   .visible-mobile {display: grid;}
+   .visible-tablet {display: none;}
 }
-
 @media (min-width: 768px) {
-   .visible-tablet {
-      display: grid;
-   }
-
-   .visible-mobile {
-      display: none;
-   }
+   .visible-tablet {display: grid;}
+   .visible-mobile {display: none;}
 }
-
+/* --------------------------------- */
 .text {
    color: var(--gray);
    font-size: var(--fz);
    line-height: var(--lh14);
    letter-spacing: 0.3px;
 }
-
 /* --------------------------------------- */
-._ibg {
-   position: relative;
-}
+._ibg {position: relative;}
 
 ._ibg img {
    position: absolute;

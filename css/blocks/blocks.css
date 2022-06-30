@@ -1,12 +1,15 @@
 .wrapper {
    min-height: 100%;
    overflow: hidden;
+
    display: grid;
    grid-template-rows: auto 1fr auto;
 }
 
+.header, .main {width: 100vw;}
+
 ._container {
-   max-width: 1170px;
+   max-width: 1170px;   
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;

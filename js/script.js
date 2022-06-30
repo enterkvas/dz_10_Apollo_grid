@@ -2,14 +2,8 @@
 // Меню бургер
 const nav = document.querySelector('.navigation'),
       iconBurger = document.querySelector('.navigation__toggle-button'),
-      navList = document.querySelector('.menu__list');
-      // menuDesk = document.querySelector('.navigation__desktop');
-      // menuDesktop = document.getElementById('desktopMenu');
-      // menuDesktop.style.display = 'none';          
-iconBurger.addEventListener("click", function(e){
-   // document.addEventListener("DOMContentLoaded", ready);
-   // menuDesktop.style.display = '';
-   // menuDesk.classList.toggle('_visib');
+      navList = document.querySelector('.menu__list');               
+iconBurger.addEventListener("click", function(e){   
    iconBurger.classList.toggle('_active');
    navList.classList.toggle('_active');
    nav.classList.toggle('navigation--navy-blue');
@@ -54,10 +48,10 @@ if (menuLinks.length > 0) {
 //==================================
 // Инициализация Swiper:
 const swiper = new Swiper('.slider-swiper', {
-	// navigation: {
-	// 	nextEl: '.swiper-button-next',
-	// 	prevEl: '.swiper-button-prev'
-	// },
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev'
+	},
 	// Пагинация:
 	pagination: {el: '.swiper-pagination',
 	//Буллеты:	

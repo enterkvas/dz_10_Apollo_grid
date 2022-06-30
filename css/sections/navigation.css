@@ -80,6 +80,7 @@
 }
 
 .menu__list {
+   display: none;
    position: relative;
    top: 0;
    left: -150%;
@@ -90,6 +91,7 @@
 }
 
 .menu__list._active {
+   display: block;
    left: 0;
 }
 
