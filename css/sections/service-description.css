@@ -1,11 +1,10 @@
 .service-description {
    padding-top: 40px;
    padding-bottom: 10px;
-}
-.laptop {border-bottom: 1px solid #EBF0F6;}
-.rocket {
-   padding-top: 50px;
    border-bottom: 1px solid #EBF0F6;
+}
+.rocket {
+   padding-top: 50px;   
 }
 .rocket__img {margin-bottom: 30px;}
 .service-description__title {
@@ -46,4 +45,27 @@
    width: 40px;
    height: 40px;   
    background-image: url(../../img/icons/arrow-orange.png);
+}
+/* ---------------- 768 ------------------ */
+@media (min-width: 768px) {
+   .service-description {
+      padding-top: 80px;
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+   .service-description__image {
+      display: grid;
+      justify-items: center;      
+   }
+   .service-description__container {
+      padding-left: 0;
+      padding-right: 30px;      
+   }
+   .service-description__body {
+      margin-top: -10px;
+   }
+   .service-description__button-arrow {
+      margin-top: 23px;
+   }
 }
