@@ -1,5 +1,5 @@
 "use strict";
-// Меню бургер
+// Burger menu
 const nav = document.querySelector('.navigation'),
       iconBurger = document.querySelector('.navigation__toggle-button'),
       navList = document.querySelector('.menu__list');               
@@ -10,7 +10,7 @@ iconBurger.addEventListener("click", function(e){
    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-// Пункты-ссылки меню бургера /Плавная прокрутка
+// Burger Menu Link Items /Smooth Scrolling
 const menuLinks = document.querySelectorAll('.menu__link');
 if (menuLinks.length > 0) {
 	menuLinks.forEach(menuLink => {
@@ -46,15 +46,15 @@ if (menuLinks.length > 0) {
 	}	
 }
 //==================================
-// Инициализация Swiper:
+// Swiper initialization:
 const swiper = new Swiper('.slider-swiper', {
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev'
 	},
-	// Пагинация:
+	// Pagination:
 	pagination: {el: '.swiper-pagination',
-	//Буллеты:	
+	//Bullets:	
 	clickable: true,
 	},
 	slidesPerView: 1,

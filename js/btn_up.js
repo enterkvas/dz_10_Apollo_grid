@@ -1,6 +1,6 @@
 
 
-// Кнопка вверх:
+// Button up:
 'use strict';
 function btn_up () {
 	const btn_upElement = document.createElement('div');

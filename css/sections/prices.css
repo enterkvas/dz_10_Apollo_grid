@@ -3,15 +3,8 @@
    padding-top: 30px;
    padding-bottom: 50px;
 }
-
-.prices__title {
-   margin-bottom: 10px;
-}
-
-.prices__text {
-   margin-bottom: 36px;
-}
-
+.prices__title {margin-bottom: 10px;}
+.prices__text {margin-bottom: 36px;}
 .prices__row {
    display: grid;
    grid-row-gap: 40px;

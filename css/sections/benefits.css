@@ -4,21 +4,41 @@
    text-align: center;
    border-bottom: 1px solid #EBF0F6;
 }
-
 .benefits__row {
    display: grid;
    row-gap: 40px;
 
    margin-top: 45px;
 }
-
-.item__image {
-   margin-bottom: 28px;
-}
-
+.item__image {margin-bottom: 28px;}
 .item__title {
+   padding: 0 50px;
    margin-bottom: 11px;
    font-size: 21px;
-   line-height: 1;
+   line-height: 1.2;
    font-weight: 700;
+}
+/* --------------- 576 ------------------ */
+@media (min-width: 576px) {
+   .item__text {padding: 0 140px;}
+}
+/* --------------- 768 ----------------------- */
+@media (min-width: 768px) {
+   .benefits {padding-bottom: 66px;}
+   .benefits__row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 50px;
+
+      margin-top: 33px;
+   }
+   .item__image {
+      height: 113px;
+      margin-bottom: 20px;
+
+      display: grid;
+      justify-items: center;
+      align-items: center;
+   }
+   .item__text {padding: 0 50px;}
 }

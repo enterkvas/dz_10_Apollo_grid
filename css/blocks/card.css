@@ -2,7 +2,6 @@
    box-shadow: 0px 10px 40px 0px rgba(99, 117, 138, 0.3);
    padding: 34px 25px 46px;
 }
-
 .card__type {
    font-size: 12px;
    line-height: 1.2;
@@ -10,20 +9,17 @@
    letter-spacing: я0.08em;
    margin-bottom: 27px;
 }
-
 .card__price {
    font-weight: 700;
    font-size: 48px;
    margin-bottom: 7px;
 }
-
 .card__price::after {
    content: 'c';
    font-family: als_rubl, serif;
    font-weight: 400;
    margin-left: 4px;
 }
-
 .card__period {
    font-size: 12px;
    line-height: 2.5;
@@ -31,17 +27,14 @@
    letter-spacing: 0.025em;
    margin-bottom: 36px;
 }
-
 .card__list {
    display: grid;
    grid-row-gap: 10px;
 }
-
 .card__list li {
    font-size: var(--fz);
    line-height: 1.43;
 }
-
 .card__list li::before {
    display: inline-block;
    content: "";

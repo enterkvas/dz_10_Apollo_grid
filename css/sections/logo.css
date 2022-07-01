@@ -5,15 +5,16 @@
    text-transform: uppercase;
    text-align: center;
 }
-
 .logo__title {  
    font-size: 33px;
    line-height: 1.35;
    letter-spacing: 0.26em;
    color: #000;
 }
-
 .logo__subtitle {
    letter-spacing: 0.7em;
    color: #a1bbd9;
+}
+@media (min-width: 768px) {
+   .logo {padding-top: 97px;}
 }

@@ -8,7 +8,6 @@
    background-size: cover;
    box-shadow: 0px 3px 25px 0px #688ab3;   
 }
-
 .slider__img {
    position: absolute;
    width: 100%;
@@ -16,15 +15,7 @@
    top: 0;
    left: 0;
 }
-
-.slider-swiper__col {
-   text-align: center;
-}
-
-.visible-mobile {
-   display: grid;
-}
-
+.slider-swiper__col {text-align: center;}
 .slider-swiper__title {
    margin-bottom: 14px;
    font-size: 28px;
@@ -33,7 +24,6 @@
    letter-spacing: -0.02em;
    color: var(--white);
 }
-
 .slider-swiper__subtitle {
    margin-bottom: 69px;
    font-family: 'Noto Serif', serif;
@@ -42,14 +32,37 @@
    font-weight: 400;
    color: #cddfe0;
 }
-
-/* Пагинация Буллеты */
-.swiper-pagination-clickable {
-   margin-bottom: 11px;
-}
-
+/* Pagination bullets */
+.swiper-pagination-clickable {margin-bottom: 11px;}
 .slider-swiper .swiper-pagination-bullet {
    width: 12px;
    height: 12px;
    background-color: var(--white);
+}
+/* Pagination arrows */
+.slider-swiper .swiper-button-prev:focus-visible, .slider-swiper .swiper-button-next:focus-visible {
+   outline: 4px solid #fff; 
+   outline-offset: 20px;
+}
+/* Arrows */
+.slider-swiper .swiper-button-prev::after, .slider-swiper .swiper-button-next::after {	
+	display: none;
+}
+/* ============================= */
+@media (min-width: 768px) {
+   .slider {padding-top: 61px;}
+   /* Arrows */
+	.slider-swiper .swiper-button-prev, .slider-swiper .swiper-button-next {		
+		width: 72px;
+		height: 72px;
+		top: 80px;		
+	}
+	.slider-swiper .swiper-button-prev {
+		background-image: url("../../img/icons/arrow-left.png");
+		left: 0;
+	}
+	.slider-swiper .swiper-button-next {		
+		background-image: url("../../img/icons/arrow-right.png");		
+		right: 0;
+	}
 }
