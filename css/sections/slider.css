@@ -15,6 +15,9 @@
    top: 0;
    left: 0;
 }
+.slider__img img {
+   max-width: 100%;
+}
 .slider-swiper__col {text-align: center;}
 .slider-swiper__title {
    margin-bottom: 14px;
