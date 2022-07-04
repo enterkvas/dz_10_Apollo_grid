@@ -32,3 +32,22 @@
 	font-weight: 700;
 	color: #6c6c6c;
 }
+/* ------------ 768 -------------- */
+@media (min-width: 768px) {
+   .footer__container {
+      padding-left: 25px;
+      padding-right: 25px;
+   }
+   .footer__row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+   }
+   .copyright {
+      width: 100%;
+      margin-top: 20px;
+      font-size: var(--fz);
+      line-height: 1.57;
+      font-weight: 700;
+      color: #6c6c6c;
+   }   
+}
