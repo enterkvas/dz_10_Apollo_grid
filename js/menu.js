@@ -26,7 +26,6 @@ if (menuLinks.length > 0) {
          if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
             const menuBlock = document.querySelector(menuLink.dataset.goto);
             const menuBlockValue = menuBlock.getBoundingClientRect().top - document.querySelector('.navigation').offsetHeight;
-
             window.scrollTo({ top: menuBlockValue, behavior: "smooth" });
          }
       } else if (w > 991) {
@@ -46,18 +45,3 @@ if (menuLinks.length > 0) {
       e.preventDefault();
    }
 }
-//==================================
-// Swiper initialization:
-const swiper = new Swiper('.slider-swiper', {
-   navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev'
-   },
-   // Pagination:
-   pagination: {
-      el: '.swiper-pagination',
-      //Bullets:	
-      clickable: true,
-   },
-   slidesPerView: 1,
-});

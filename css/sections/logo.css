@@ -5,16 +5,24 @@
    text-transform: uppercase;
    text-align: center;
 }
-.logo__title {  
+.logo__title {
+   margin-bottom: 7px;  
    font-size: 33px;
-   line-height: 1.35;
+   line-height: 1;
    letter-spacing: 0.26em;
    color: #000;
 }
 .logo__subtitle {
+   line-height: 1;
    letter-spacing: 0.7em;
    color: #a1bbd9;
 }
-@media (min-width: 768px) {
-   .logo {padding-top: 97px;}
+/* --------------- 992px ------------------- */
+@media (min-width: 992px) {
+   .logo {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+   .logo__title {font-size: 38px;}
+   .logo__subtitle {font-size: 16px;}
 }

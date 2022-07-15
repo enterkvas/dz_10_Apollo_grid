@@ -6,13 +6,16 @@
    grid-template-rows: auto 1fr auto;
 }
 .header, .main {width: 100vw;}
+@media (min-width: 992px) {
+   .header {display: grid;}
+   .navigation {order: 2;}
+   .logo {order: 1;}
+}
 ._container {
-   max-width: 1170px;   
+   max-width: 1200px;   
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;
 }
-
-.mt-10 {
-   margin-top: -10px;
-}
+.mt-10 {margin-top: -10px;}
+.mt20 {margin-top: 20px;}

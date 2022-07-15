@@ -3,3 +3,10 @@
    font-weight: 700;
    line-height: 1.36;
 }
+/* ----------- 992 ---------- */
+@media (min-width: 992px) {
+	.heading {
+		font-size: 38px;
+		line-height: 1.26;
+	}	
+}

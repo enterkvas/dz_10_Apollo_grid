@@ -12,11 +12,17 @@
    display: grid;
    grid-gap: 40px;
 }
-/* -------------- 768 ------------- */
-@media (min-width: 768px) {
-   .prices {      
-      padding-bottom: 100px;
+/* ------------------- 576px --------------- */
+@media (min-width: 576px) {
+   .prices__text {
+      max-width: 50%;
+      margin-left: auto;
+      margin-right: auto;
    }
+}
+/* -------------- 768px ------------- */
+@media (min-width: 768px) {
+   .prices {padding-bottom: 100px;}
    .prices__row {
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 40px;
@@ -24,6 +30,17 @@
    .prices__header {
       width: 44%;
       margin-left: auto;
-      margin-right: auto;      
+      margin-right: auto;
    }
+   .prices__text {max-width: 100%;}
+}
+/* --------------- 1200px ----------- */
+@media (min-width: 1200px) {
+   .prices {
+      padding-top: 60px;
+      padding-bottom: 90px;
+   }
+   .prices__header {margin-bottom: 50px;}
+   .prices__title {margin-bottom: 20px;}
+   .prices__text {padding: 0 25px;}
 }

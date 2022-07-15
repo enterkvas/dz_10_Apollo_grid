@@ -1,5 +1,3 @@
-
-
 // Button up:
 'use strict';
 function btn_up () {
@@ -22,4 +20,4 @@ function btn_up () {
 	}
 	window.addEventListener('scroll', trackScroll);
 }
-btn_up();
+setTimeout(btn_up, 2000);

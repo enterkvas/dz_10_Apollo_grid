@@ -27,7 +27,7 @@
                <nav class="navigation__desktop menu">
                   <ul class="menu__list">
                      <li>
-                        <a data-goto="#main-page" href="#" class="menu__link selected">main</a>
+                        <a data-goto="#main-page" href="#" class="menu__link">main</a>
                      </li>
                      <li>
                         <a data-goto="#how-we-work" href="#" class="menu__link">how-we-work</a>
@@ -62,7 +62,7 @@
          <!-- Slider -->
          <div class="slider">
             <div class="slider__img _ibg">
-               <img src="img/bg/slider-bg.jpg" alt="background image">
+               <img src="img/bg/slider-bg.jpg" width="320" height="79" alt="Background image">
             </div>
             <div class="slider__container _container">
                <!-- Slider Swiper -->
@@ -163,7 +163,7 @@
                      <div class="benefits__item item">
                         <div class="item__row">
                            <div class="item__image">
-                              <img src="img/images/weather.jpg" alt="Picture of weather">
+                              <img src="img/images/weather.jpg" alt="Picture of weather" width="127" height="97">
                            </div>
                            <div class="item__body">
                               <div class="item__title">We work in any<br> weather</div>
@@ -176,8 +176,8 @@
                   <div class="benefits__col">
                      <div class="benefits__item item">
                         <div class="item__row">
-                           <div class="item__image">
-                              <img src="img/images/graph.jpg" alt="Picture schedule">
+                           <div class="item__image item__image--mb35">
+                              <img src="img/images/graph.jpg" alt="Picture schedule" width="105" height="83">
                            </div>
                            <div class="item__body">
                               <div class="item__title">We use nano<br> technologies</div>
@@ -189,8 +189,8 @@
                   </div>
                   <div class="benefits__col">
                      <div class="benefits__item item">
-                        <div class="item__image">
-                           <img src="img/images/flipchart.jpg" alt="Picture certificate">
+                        <div class="item__image item__image--mb35">
+                           <img src="img/images/flipchart.jpg" alt="Picture certificate" width="72" height="101">
                         </div>
                         <div class="item__body">
                            <div class="item__title">Quality standards<br> correspond to ISO</div>
@@ -202,7 +202,7 @@
                   <div class="benefits__col">
                      <div class="benefits__item item">
                         <div class="item__image">
-                           <img src="img/images/presentation.jpg" alt="Presentation picture">
+                           <img src="img/images/presentation.jpg" alt="Presentation picture" width="95" height="113">
                         </div>
                         <div class="item__body">
                            <div class="item__title">We are rapidly<br> developing</div>
@@ -217,11 +217,13 @@
          <!-- / Benefits -->
          <!-- ======================================================= -->
          <!-- Service-description -->
-         <!-- Service-description laptop -->
-         <div class="service-description laptop" id="freelancers">
-            <div class="service-description__img service-description__img--tablet"></div>
+         <!-- Service-description tablet -->
+         <div class="service-description tablet" id="freelancers">
             <div class="service-description__container _container">
-               <div class="service-description__body">
+               <div class="service-description__img service-description__img--tablet">
+                  <img src="img/images/tablet.png" loading="lazy" alt="Tablet image" width="525">
+               </div>
+               <div class="service-description__body mt-10">
                   <div
                      class="service-description__title service-description__title--number service-description__title--number-1 heading ">
                      Hosting for freelancers</div>
@@ -229,7 +231,7 @@
                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                         do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        laboris nisi ut aliquip ex ea commodo consequat. </p>
                      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
                         cillum dolore eu fugiat nulla pariatur.</p>
                   </div>
@@ -237,12 +239,14 @@
                </div>
             </div>
          </div>
-         <!-- / Service-description laptop -->
+         <!-- / Service-description tablet -->
          <!-- Service-description rocket -->
          <div class="service-description rocket" id="startups">
-            <div class="service-description__img service-description__img--rocket"></div>
-            <div class="service-description__container service-description__container--order _container">
-               <div class="service-description__body">
+            <div class="service-description__container _container">
+               <div class="service-description__img service-description__img--rocket">
+                  <img src="img/images/rocket.png" loading="lazy" alt="Rocket image" width="385">
+               </div>
+               <div class="service-description__body mt20">
                   <div
                      class="service-description__title service-description__title--number service-description__title--number-2 heading ">
                      Hosting for startups</div>
@@ -342,7 +346,7 @@
                      <li><a href="#">Jobs</a></li>
                   </ul>
                </div>
-               <div class="footer__col">
+               <div class="footer__col footer__col--3">
                   <h3 class="footer__title">support</h3>
                   <ul class="footer__nav">
                      <li><a href="#">Support</a></li>
@@ -359,7 +363,8 @@
    <!-- Vendor scripts -->
    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    <!-- User scripts -->
-   <script src="js/script.js"></script>
+   <script src="js/menu.js"></script>
+   <script src="js/slider.js"></script>
    <script src="js/btn_up.js"></script>
 </body>
 

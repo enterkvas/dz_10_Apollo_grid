@@ -1,6 +1,6 @@
 .slider {   
    position: relative;
-   padding-top: 65px;
+   padding-top: 60px;
    padding-bottom: 9px;
    background-color: #00306e;
    background-repeat: no-repeat;
@@ -15,9 +15,7 @@
    top: 0;
    left: 0;
 }
-.slider__img img {
-   max-width: 100%;
-}
+.slider__img img {max-width: 100%;}
 .slider-swiper__col {text-align: center;}
 .slider-swiper__title {
    margin-bottom: 14px;
@@ -28,7 +26,7 @@
    color: var(--white);
 }
 .slider-swiper__subtitle {
-   margin-bottom: 69px;
+   margin-bottom: 63px;
    font-family: 'Noto Serif', serif;
    font-size: 18px;
    line-height: 1.56;
@@ -51,14 +49,20 @@
 .slider-swiper .swiper-button-prev::after, .slider-swiper .swiper-button-next::after {	
 	display: none;
 }
-/* ============================= */
+/* ------------ 768px ---------- */
 @media (min-width: 768px) {
-   .slider {padding-top: 61px;}
-   /* Arrows */
+   .slider {padding-top: 60px;}
+   .slider__container {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   .slider-swiper__title {margin-bottom: 5px;}
+   .slider-swiper__subtitle {margin-bottom: 83px;}
+           /* Arrows */
 	.slider-swiper .swiper-button-prev, .slider-swiper .swiper-button-next {		
 		width: 72px;
 		height: 72px;
-		top: 80px;		
+		top: 65px;		
 	}
 	.slider-swiper .swiper-button-prev {
 		background-image: url("../../img/icons/arrow-left.png");
@@ -67,5 +71,28 @@
 	.slider-swiper .swiper-button-next {		
 		background-image: url("../../img/icons/arrow-right.png");		
 		right: 0;
+	}
+}
+/* ------------- 992px ------------------- */
+@media (min-width: 992px) {
+   .slider {
+      padding-top: 100px;
+      padding-bottom: 65px;
+   }
+   .slider__container {      
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   .slider-swiper__title {
+      margin-bottom: 15px;
+      font-size: 32px;      
+   }
+   .slider-swiper__subtitle {
+      margin-bottom: 68px;
+      font-size: 22px;
+   }
+   .slider-swiper .swiper-pagination {display: none;}
+   .slider-swiper .swiper-button-prev, .slider-swiper .swiper-button-next {		
+		top: 76px;		
 	}
 }
