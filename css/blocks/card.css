@@ -7,7 +7,7 @@
    font-size: 12px;
    line-height: 1.2;
    text-transform: uppercase;
-   letter-spacing: я0.08em;
+   letter-spacing: 0.08em;
    margin-bottom: 27px;
 }
 .card__price {
@@ -33,7 +33,7 @@
    grid-row-gap: 10px;
 }
 .card__list li {
-   font-size: var(--fz);
+   /* font-size: var(--fz); */
    line-height: 1.43;
 }
 .card__list li::before {
