@@ -19,8 +19,7 @@ if (menuLinks.length > 0) {
    function onMenuLinkClick(e) {
       const menuLink = e.target;
       const w = document.body.clientWidth;
-      if (w < 992) {
-         
+      if (w < 992) {         
          navList.classList.toggle('_active');
          nav.classList.toggle('navigation--navy-blue');
          iconBurger.classList.toggle('_active');
@@ -34,11 +33,9 @@ if (menuLinks.length > 0) {
             const menuBlock = document.querySelector(menuLink.dataset.goto);
             if (window.pageYOffset === 0) {
                const menuBlockValue = menuBlock.getBoundingClientRect().top;
-
-               
+               window.scrollTo({ top: menuBlockValue, behavior: "smooth" });               
             } else if (window.pageYOffset > 0) {
                const menuBlockValue = menuBlock.getBoundingClientRect().top + window.pageYOffset;
-
                window.scrollTo({ top: menuBlockValue, behavior: "smooth" });
             }
          }
