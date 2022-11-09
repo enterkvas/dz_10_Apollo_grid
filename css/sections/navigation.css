@@ -34,6 +34,11 @@
    width: 25px;
    height: 20px;
 }
+
+/*.navigation__toggle-button._active {
+	height: 25px;
+}*/
+
 .navigation__toggle-button::before,
 .navigation__toggle-button::after,
 .navigation__toggle-button span {
@@ -57,11 +62,11 @@
 }
 .navigation__toggle-button._active::before {
    top: 50%;
-   transform: rotate(-45deg) translate(1px, -50%);
+   transform: rotate(-45deg) translate(2px, -50%);
 }
 .navigation__toggle-button._active::after {
    top: 50%;
-   transform: rotate(45deg) translate(-1px, -50%);
+   transform: rotate(45deg) translate(-2px, -50%);
 }
 .menu__list {   
    position: relative;
@@ -83,14 +88,15 @@
    text-transform: uppercase;
    font-weight: 700;
    letter-spacing: 0.3em;
-   border-bottom: 1px solid #fff;
+   border-bottom: 1px solid #496d95;
    line-height: 4;
 }
 .menu__list li:last-child {border-bottom: none;}
 .menu__link {
    display: block;
-   color: var(--white);
    margin-left: 15px;
+   color: var(--white);   
+   transition: all 0.3s ease 0s;
 }
 /* -------- 992px ---------------- */
 @media (min-width: 992px) {

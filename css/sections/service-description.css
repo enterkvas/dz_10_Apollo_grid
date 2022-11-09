@@ -50,6 +50,7 @@
    width: 40px;
    height: 40px;   
    background-image: url(../../img/icons/arrow-orange.png);
+   transition: all 0.3s ease 0s;
 }
 /* ---------------- 768px ------------------ */
 @media (min-width: 768px) {   
@@ -81,6 +82,13 @@
    .service-description__img--rocket {order: 2;} 
    .service-description__button-arrow {margin-top: 23px;}    
 }
+/* --------------- 992px ------------- */
+   .service-description__button-arrow:hover {opacity: .5;}
+   .service-description__button-arrow:focus-visible {
+	  outline: 4px solid #000;
+      outline-offset: 10px;
+      border-radius: 0;
+   }
 /* --------------- 1200px ---------------- */
 @media (min-width: 1200px) {
    .tablet { 

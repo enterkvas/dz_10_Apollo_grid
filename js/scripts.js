@@ -4,17 +4,17 @@
 const nav = document.querySelector('.navigation'),
    iconBurger = document.querySelector('.navigation__toggle-button'),
    navList = document.querySelector('.menu__list');
-iconBurger.addEventListener("click", function (e) {
+iconBurger.addEventListener('click', function (e) {
    iconBurger.classList.toggle('_active');
    navList.classList.toggle('_active');
    nav.classList.toggle('navigation--navy-blue');
-   window.scrollTo({ top: 0, behavior: 'smooth' });
+   window.scrollTo({ top: 0, behavior: "smooth" });
 });
             // Burger Menu Link Items /Smooth Scrolling
 const menuLinks = document.querySelectorAll('.menu__link');
 if (menuLinks.length > 0) {
    menuLinks.forEach(menuLink => {
-      menuLink.addEventListener("click", onMenuLinkClick);
+      menuLink.addEventListener('click', onMenuLinkClick);
    });
    function onMenuLinkClick(e) {
       const menuLink = e.target;
@@ -33,7 +33,7 @@ if (menuLinks.length > 0) {
             const menuBlock = document.querySelector(menuLink.dataset.goto);
             if (window.pageYOffset === 0) {
                const menuBlockValue = menuBlock.getBoundingClientRect().top;
-               window.scrollTo({ top: menuBlockValue, behavior: "smooth" });               
+               window.scrollTo({ top: menuBlockValue, behavior: 'smooth' });               
             } else if (window.pageYOffset > 0) {
                const menuBlockValue = menuBlock.getBoundingClientRect().top + window.pageYOffset;
                window.scrollTo({ top: menuBlockValue, behavior: "smooth" });
@@ -62,10 +62,10 @@ const swiper = new Swiper('.slider-swiper', {
 'use strict';
 function btn_up () {
 	const btn_upElement = document.createElement('div');
-	btn_upElement.className = "btn_up";
+	btn_upElement.className = 'btn_up';
 	document.body.append(btn_upElement);
 
-	btn_upElement.addEventListener("click", function(e) {
+	btn_upElement.addEventListener('click', function(e) {
 		
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 		btn_upElement.classList.toggle('active');		
